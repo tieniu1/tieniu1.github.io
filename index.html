@@ -43,7 +43,7 @@
 <meta name="generator" content="Hexo 4.2.0"></head>
 
 
-<body class="main-center" itemscope itemtype="http://schema.org/WebPage">
+<body class="main-center theme-black" itemscope itemtype="http://schema.org/WebPage">
   <header class="header" itemscope itemtype="http://schema.org/WPHeader">
   <div class="slimContent">
     <div class="navbar-header">
@@ -54,8 +54,8 @@
           <img class="img-circle img-rotate" src="/images/avatar.jpg" width="200" height="200">
         </a>
         <h2 id="name" class="hidden-xs hidden-sm">tieniu1</h2>
-        <h3 id="title" class="hidden-xs hidden-sm hidden-md">Web Developer &amp; Designer</h3>
-        <small id="location" class="text-muted hidden-xs hidden-sm"><i class="icon icon-map-marker"></i> Shenzhen, China</small>
+        <h3 id="title" class="hidden-xs hidden-sm hidden-md">我是tieniu1</h3>
+        <small id="location" class="text-muted hidden-xs hidden-sm"><i class="icon icon-map-marker"></i> 深圳 中国</small>
       </div>
       
       <div class="search" id="search-form-wrap">
@@ -99,7 +99,7 @@
             
             <i class="icon icon-home-fill"></i>
             
-            <span class="menu-title">Home</span>
+            <span class="menu-title">主页</span>
           </a>
         </li>
         
@@ -109,7 +109,7 @@
             
             <i class="icon icon-archives-fill"></i>
             
-            <span class="menu-title">Archives</span>
+            <span class="menu-title">归档</span>
           </a>
         </li>
         
@@ -119,7 +119,7 @@
             
             <i class="icon icon-folder"></i>
             
-            <span class="menu-title">Categories</span>
+            <span class="menu-title">分类</span>
           </a>
         </li>
         
@@ -129,7 +129,7 @@
             
             <i class="icon icon-tags"></i>
             
-            <span class="menu-title">Tags</span>
+            <span class="menu-title">标签</span>
           </a>
         </li>
         
@@ -139,7 +139,7 @@
             
             <i class="icon icon-project"></i>
             
-            <span class="menu-title">Repository</span>
+            <span class="menu-title">项目</span>
           </a>
         </li>
         
@@ -149,7 +149,7 @@
             
             <i class="icon icon-book-fill"></i>
             
-            <span class="menu-title">Books</span>
+            <span class="menu-title">书单</span>
           </a>
         </li>
         
@@ -159,7 +159,7 @@
             
             <i class="icon icon-friendship"></i>
             
-            <span class="menu-title">Links</span>
+            <span class="menu-title">友链</span>
           </a>
         </li>
         
@@ -169,7 +169,7 @@
             
             <i class="icon icon-cup-fill"></i>
             
-            <span class="menu-title">About</span>
+            <span class="menu-title">关于</span>
           </a>
         </li>
         
@@ -211,13 +211,20 @@
 
     
       
+  <div class="widget">
+    <h3 class="widget-title">Categories</h3>
+    <div class="widget-body">
+      <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/hexo/">hexo</a><span class="category-list-count">1</span></li></ul>
+    </div>
+  </div>
+
 
     
       
   <div class="widget">
     <h3 class="widget-title">Tags</h3>
     <div class="widget-body">
-      <ul class="tag-list" itemprop="keywords"><li class="tag-list-item"><a class="tag-list-link" href="/tags/HEXO/" rel="tag">HEXO</a><span class="tag-list-count">1</span></li></ul>
+      <ul class="tag-list" itemprop="keywords"><li class="tag-list-item"><a class="tag-list-link" href="/tags/hexo%E4%B8%BB%E9%A2%98/" rel="tag">hexo主题</a><span class="tag-list-count">1</span></li></ul>
     </div>
   </div>
 
@@ -227,7 +234,7 @@
   <div class="widget">
     <h3 class="widget-title">Tag Cloud</h3>
     <div class="widget-body tagcloud">
-      <a href="/tags/HEXO/" style="font-size: 13px;">HEXO</a>
+      <a href="/tags/hexo%E4%B8%BB%E9%A2%98/" style="font-size: 13px;">hexo主题</a>
     </div>
   </div>
 
@@ -252,7 +259,7 @@
             
             <div class="item-inner">
               <p class="item-category">
-                
+                <a class="category-link" href="/categories/hexo/">hexo</a>
               </p>
               <p class="item-title">
                 <a href="/2020/04/28/HEXO%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/" class="title">HEXO常用命令</a>
@@ -297,10 +304,15 @@
 	</a>
 </span>
         
+  <span class="article-category">
+    <i class="icon icon-folder"></i>
+    <a class="article-category-link" href="/categories/hexo/">hexo</a>
+  </span>
+
         
   <span class="article-tag">
     <i class="icon icon-tags"></i>
-	<a class="article-tag-link" href="/tags/HEXO/" rel="tag">HEXO</a>
+	<a class="article-tag-link" href="/tags/hexo%E4%B8%BB%E9%A2%98/" rel="tag">hexo主题</a>
   </span>
 
 
@@ -312,8 +324,12 @@
     </div>
     <div class="article-entry marked-body" itemprop="articleBody">
       
-        <h3 id="HEXO常用命令"><a href="#HEXO常用命令" class="headerlink" title="HEXO常用命令"></a>HEXO常用命令</h3><p>记住以下命令基本就足够应付日常Hexo的使用了。<br>-hexo help 获取帮助；<br>-hexo init [folder] 初始化Hexo项目目录，默认当前目录；<br>-hexo new [layout] <title> layout选填，默认使用 _config.yml 中的 default_layout 参数代替；<br>-hexo publish [layout] <filename> 发表草稿；<br>-hexo g 生成静态页面；<br>-hexo g -d 生成文章后立即部署；<br>-hexo s 启动hexo服务，在本地可以通过<a href="http://localhost:4000来访问页面；">http://localhost:4000来访问页面；</a><br>-hexo s -p 3000 修改端口号为3000；<br>-hexo s -g 启动本地服务前，先执行hexo g;<br>-hexo d 部署hexo，前提是你已经配置了部署环境，通常是使用Git部署至Github或者Coding上；<br>-hexo d -g 部署前，先执行hexo g;<br>-hexo clean 清空产生的静态网站，也就是删除项目中public文件夹，在调试页面的时候通常要用到，很多情况，修改了hexo配置文件，hexo服务并不能实时显示出来。建议部署到服务器上之前，都使用一下此命令；<br>-hexo version 查看环境以及版本；<br>掌握这些基本命令就足以应付日常使用了，更多功能请查看官方<a href="https://hexo.io/zh-cn/docs/" target="_blank" rel="noopener">https://hexo.io/zh-cn/docs/</a>.</p>
-
+        <h3 id="HEXO常用命令"><a href="#HEXO常用命令" class="headerlink" title="HEXO常用命令"></a>HEXO常用命令</h3>
+        
+          <p class="article-more-link">
+            <a href="/2020/04/28/HEXO%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/#more">Read More</a>
+          </p>
+        
       
     </div>
     <div class="article-footer">
@@ -341,7 +357,7 @@
         </a>
       </div>
       <div class="media-body">
-        <h3 class="media-heading"><a href="https://tieniu1.github.io/" target="_blank"><span class="text-dark">tieniu1</span><small class="ml-1x">Web Developer &amp; Designer</small></a></h3>
+        <h3 class="media-heading"><a href="https://tieniu1.github.io/" target="_blank"><span class="text-dark">tieniu1</span><small class="ml-1x">我是tieniu1</small></a></h3>
         <div>个人简介。</div>
       </div>
     </figure>
